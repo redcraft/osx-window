@@ -7,16 +7,16 @@
         ".osx-window-bar .osx-yellow {background-color: #f9c038; border-color: #e3a042;}  " +
         ".osx-window-bar .osx-green {background-color: #3ace41; border-color: #13ab47;}  " +
         ".osx-content {border: 1px solid #dddddd; border-top-color: #aeacae; box-sizing: border-box;}" +
-        ".osx-window-bar {padding-left:8px; background-color: #e5e2e5; clear: both; height: 32px; border-top-left-radius: 5px; border-top-right-radius: 5px;}" );
+        ".osx-window-bar {padding-left:8px; background-color: #e5e2e5; clear: both; height: 32px; border-top-left-radius: 5px; border-top-right-radius: 5px;}" +
+        ".osx-wrapper {display:inline-block}"
+    );
 
     $.fn.osxWindow = function() {
 
         return this.each(function() {
-            var element = $(this);
-            element
+            $(this)
                 .addClass("osx-content")
-                .wrap('<div></div>').parent()
-                .width(element.width() + 2)
+                .wrap('<div class="osx-wrapper"></div>').parent()
                 .prepend('<div class="osx-window-bar"><div class="osx-circle osx-red"></div><div class="osx-circle osx-yellow"></div><div class="osx-circle osx-green"></div></div>');
         }).parent();
 

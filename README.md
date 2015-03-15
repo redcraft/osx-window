@@ -16,9 +16,9 @@ bower install osx-window
 ```html
 <script src="bower_components/osx-window/osx-window.js"></script>
 ```
-* Mark screenshot or DIV container with some class. Don't forget to set element width:
+* Mark screenshot or DIV container with some class:
 ```html
-<img class="osx-window" src="some-image.png" style="width: 700px">
+<img class="osx-window" src="screenshot.png">
 ```
 * Apply plugin for elements
 ```javascript
