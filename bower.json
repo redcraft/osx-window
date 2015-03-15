@@ -1,0 +1,30 @@
+{
+  "name": "osx-window",
+  "main": "osx-window.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/redcraft/osx-window",
+  "authors": [
+    "Maxim Gurkin <redmax3d@gmail.com>"
+  ],
+  "description": "jQuery plugin which wraps DOM elements into OS X styled frame.",
+  "keywords": [
+    "OS X",
+    "window",
+    "screenshot"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/redcraft/osx-window.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.2.3"
+  }
+}
