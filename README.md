@@ -7,9 +7,9 @@ If you need to style some screenshots as if they were displayed in OS X window y
 
 To use the plugin please follow these steps:
 
-* Load osxWindow.js 
+* Load osx-window.js
 ```html
-<script src="osxWindow.js"></script>
+<script src="osx-window.js"></script>
 ```
 * Mark screenshot or DIV container with some class
 ```html
