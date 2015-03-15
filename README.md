@@ -1,7 +1,9 @@
 # osx-window
-This is a jQuery plugin which styles DOM container as OS X window. If you need to style some screenshot as if it was displayed in OS X window you will find this plugin very helpful. Example can be found below:
+This is a jQuery plugin which wraps DOM elements into OS X styled frame.
 
-![osx-window example](https://dl.dropboxusercontent.com/u/5856793/osx-window-plugin-example.png "Plugin example")
+If you need to style some screenshots as if they were displayed in OS X window you will find this plugin very helpful. Example can be found below:
+
+![osx-window example](https://github.com/redcraft/osx-window/blob/master/demo.png "Plugin example")
 
 To use the plugin please follow these steps:
 
@@ -9,13 +11,20 @@ To use the plugin please follow these steps:
 ```html
 <script src="osxWindow.js"></script>
 ```
-* Wrap some screenshot or DOM elements with div container
+* Mark screenshot or DIV container with some class
 ```html
-<div class="osx-window">
-  <img src="some-image.png">
-</div>
+<img class="osx-window" src="some-image.png">
 ```
-* Apply plugin for wrapers
+* Apply plugin for elements
 ```javascript
 $(".osx-window").osxWindow();
 ```
+
+Plugin returnes list of wrapers so you may continue the chain and apply another modifications on them (add margins for example):
+```javascript
+$(".osx-window").osxWindow().css("margin", "10px 20px 10px 20px");
+```
+
+Usage example can be found in example.html file. Just checkout repository and open it in browser.
+
+If you have questions or would like to suggest something don't hesitate to contact me. 
