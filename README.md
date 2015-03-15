@@ -5,6 +5,7 @@ If you need to style some screenshots as if they were displayed in OS X window y
 
 ![osx-window example](https://github.com/redcraft/osx-window/blob/master/demo.png "Plugin example")
 
+####Usage
 To use the plugin please follow these steps:
 
 * Load osx-window.js
@@ -24,7 +25,8 @@ Plugin returnes list of wrapers so you may continue the chain and apply another 
 ```javascript
 $(".osx-window").osxWindow().css("margin", "10px 20px 10px 20px");
 ```
-
+####Example
 Usage example can be found in example.html file. Just checkout repository and open it in browser.
 
+####Feedback
 If you have questions or would like to suggest something don't hesitate to contact me. 
